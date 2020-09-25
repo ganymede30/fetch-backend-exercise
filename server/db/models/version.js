@@ -2,9 +2,12 @@ const Sequelize = require('sequelize')
 const db = require('../db')
 
 const Version = db.define('version', {
-  versionNumber: {
+  versionNumber1: {
     type: Sequelize.STRING,
-    unique: true,
+    allowNull: false
+  },
+  versionNumber2: {
+    type: Sequelize.STRING,
     allowNull: false
   }
 })
