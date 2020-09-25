@@ -15,7 +15,7 @@ To examine the frontend follow:
 
 This app was set up with an `express`/`sequelize` backend and a `react` frontend.
 
-To use this code you will need to have PostgreSQL installed on your machine.
+To use this code you will need to have PostgreSQL installed & running on your machine.
 
 After forking the repo run
 
